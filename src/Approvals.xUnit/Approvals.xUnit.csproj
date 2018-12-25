@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-  </PropertyGroup>
-
-  <PropertyGroup>
+    <Version>1.0.0-preview-001</Version>
+    <Description>Approval testing for xUnit</Description>
+    <Authors>Sean Feldman</Authors>
     <PackageTags>Approval Testing; xUnit</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/SeanFeldman/Approvals.xUnit/develop/images/project-icon.png</PackageIconUrl>
     <PackageLicense>https://raw.githubusercontent.com/SeanFeldman/Approvals.xUnit/develop/LICENSE</PackageLicense>
     <PackageProjectUrl>https://github.com/SeanFeldman/Approvals.xUnit</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageOutputPath Condition="'$(PackageOutputPath)' == ''">..\..\nugets</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath Condition="'$(PackageOutputPath)' == ''">..\..\nugets</PackageOutputPath>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="[12.0.1, 13.0.0)" />
     <PackageReference Include="xUnit" Version="[2.4.1, 3.0.0)" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
