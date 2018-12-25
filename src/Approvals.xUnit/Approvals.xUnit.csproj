@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/SeanFeldman/Approvals.xUnit</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
     <PackageOutputPath Condition="'$(PackageOutputPath)' == ''">..\..\nugets</PackageOutputPath>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
