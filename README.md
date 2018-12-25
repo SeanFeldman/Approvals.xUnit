@@ -26,4 +26,4 @@ To Install from the Nuget Package Manager Console
 
 ## Icon
 
-Created by Grégory Montigny from the Noun Project
+Created by Srinivas Agra from the Noun Project
